@@ -3,7 +3,7 @@
 .text
 
 _main:
-    cmp     x0, #4 // Check is the argc is equal to 4
+    cmp     x0, #4 // Check if the argc is equal to 4
     b.ne   _invalid_argument
 
     ldr     x2, [x1, #8] // First command line argument
