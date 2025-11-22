@@ -1,3 +1,3 @@
 # Calasm
 
-A simple calcutor cli app written in arm64 assembly
+A simple calculator cli app written in arm64 assembly
